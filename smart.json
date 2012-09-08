@@ -3,5 +3,10 @@
     "git": "https://github.com/meteor/meteor.git",
     "branch": "auth"
   },
-  "packages": {}
+  "packages": {
+    "atm-accounts-ui": {
+      "path": "../meteor-packages/accounts-ui"
+    },
+    "bootstrap.less": {}
+  }
 }

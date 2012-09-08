@@ -5,7 +5,21 @@
     "commit": "24377fc980ed0f3f502c5e538a8a873ba354f512"
   },
   "dependencies": {
-    "basePackages": {},
-    "packages": {}
+    "basePackages": {
+      "atm-accounts-ui": {
+        "path": "../meteor-packages/accounts-ui"
+      },
+      "bootstrap.less": {}
+    },
+    "packages": {
+      "atm-accounts-ui": {
+        "path": "../meteor-packages/accounts-ui"
+      },
+      "bootstrap.less": {
+        "git": "https://github.com/lvbreda/meteor_bootstrapless",
+        "tag": "v2.1.0",
+        "commit": "05dab8a4f07ef0f457fd4af4ea897c9d72129a2b"
+      }
+    }
   }
 }

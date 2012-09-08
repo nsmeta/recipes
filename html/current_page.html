@@ -1,0 +1,17 @@
+<template name="current_page">
+    {{#if current_page_is "home"}}
+        {{> home}}
+    {{/if}}
+    {{#if current_page_is "contents"}}
+        {{> contents}}
+    {{/if}}
+</template>
+
+
+<template name="home">
+    HOME PAGE
+</template>
+
+<template name="contents">
+    contents
+</template>

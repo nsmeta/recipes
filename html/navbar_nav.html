@@ -1,0 +1,9 @@
+<template name="navbar_nav">
+<ul class="nav">
+    {{#each pages}}
+        <li class="{{active}}">
+            <a href="/{{url}}">{{title}}</a>
+        </li>
+    {{/each}}
+</ul>
+</template>

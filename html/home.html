@@ -3,5 +3,19 @@
 </head>
 
 <body>
-    Hello, world!
+    <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+            <a class="brand" href="/">Meteor Recipes</a>
+            <div class="pull-left">
+                {{> navbar_nav}}
+                {{> navbar_search}}
+            </div>
+            <div class="pull-right">
+                {{> loginButtons}}
+            </div>
+        </div>
+    </div>
+    {{> current_page}}
+
+
 </body>
